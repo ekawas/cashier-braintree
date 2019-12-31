@@ -1,5 +1,10 @@
 # Release Notes
 
+## [v3.2.0 (2019-03-16)](https://github.com/ekawas/cashier-braintree/compare/v3.1.2...v3.2.0)
+
+### Fixed
+- Fixed an issue where existing customers with new cards didn't have their billing address set.
+
 ## [Unreleased](https://github.com/laravel/cashier-braintree/compare/v3.1.2...3.0)
 
 
