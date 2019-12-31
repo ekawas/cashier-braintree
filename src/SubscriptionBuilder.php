@@ -225,7 +225,6 @@ class SubscriptionBuilder
                 } else {
                     $this->owner->updateCard($token);
                 }
-                $this->owner->updateCard($token);
             }
         }
 
