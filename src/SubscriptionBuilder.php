@@ -219,6 +219,12 @@ class SubscriptionBuilder
             $customer = $this->owner->asBraintreeCustomer();
 
             if ($token) {
+                if (array_key_exists('creditCard', $options)) {
+                    $paymentMethodCreateOptions = $options['creditCard'];
+                    $this->owner->updateCard($token, $paymentMethodCreateOptions);
+                } else {
+                    $this->owner->updateCard($token);
+                }
                 $this->owner->updateCard($token);
             }
         }
