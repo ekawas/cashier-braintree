@@ -14,8 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
-        "braintree/braintree_php": "~4.5.0",
+        "php": "^7.1.3",
+        "braintree/braintree_php": "~3.40",
         "dompdf/dompdf": "^0.8.0",
         "illuminate/contracts": "~5.7.0|~5.8.0|~5.9.0",
         "illuminate/database": "~5.7.0|~5.8.0|~5.9.0",
